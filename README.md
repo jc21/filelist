@@ -64,8 +64,8 @@ $extensions = array('jpg', 'png', 'jpeg', 'gif');
 $items      = $fileList->get('/path/to/files', FileList::TYPE_DIR, FileList::KEY_NAME, FileList::ASC, null, $extensions);
 ```
 
-```php
 Order by the Size descending:
+```php
 $items = $fileList->get('/path/to/files', FileList::TYPE_DIR, FileList::KEY_SIZE, FileList::DESC);
 ```
 
