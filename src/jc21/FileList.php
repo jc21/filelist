@@ -30,8 +30,7 @@ class FileList {
     /**
      * Callback for File Type and Name Filters
      *
-     * @var     callable
-     * @access  protected
+     * @var callable
      *
      **/
     protected $filterCallback = false;
@@ -39,8 +38,7 @@ class FileList {
     /**
      * Stores the last directory listing total size in bytes
      *
-     * @var     int
-     * @access  protected
+     * @var int
      *
      **/
     protected $lastSize = 0;
@@ -48,8 +46,7 @@ class FileList {
     /**
      * Stores the last directory listing total number of files
      *
-     * @var     int
-     * @access  protected
+     * @var int
      *
      **/
     protected $lastItemCount = 0;
@@ -58,7 +55,6 @@ class FileList {
     /**
      * Sets the Filter Callback
      *
-     * @access public
      * @param  string|array  $object
      * @return void
      */
@@ -71,7 +67,6 @@ class FileList {
     /**
      * Order the results of a directory listing
      *
-     * @access protected
      * @param  array   $items
      * @param  string  $type
      * @param  string  $by
@@ -124,7 +119,6 @@ class FileList {
     /**
      * Return the listing of a directory
      *
-     * @access public
      * @param  string $directory
      * @param  string $type
      * @param  string $order
@@ -205,7 +199,6 @@ class FileList {
     /**
      * Returns the extension of a file, lowercase
      *
-     * @access protected
      * @param  string  $file
      * @return string
      */
@@ -222,7 +215,6 @@ class FileList {
     /**
      * Return the last listing size in bytes
      *
-     * @access public
      * @return int
      */
     public function getLastSize() {
@@ -233,7 +225,6 @@ class FileList {
     /**
      * Return the last listing count of items
      *
-     * @access public
      * @return int
      */
     public function getLastItemCount() {
