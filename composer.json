@@ -3,7 +3,7 @@
     "description": "File Listing helper class",
     "keywords": ["file", "dir", "listing"],
     "homepage": "https://github.com/jc21/filelist",
-    "license": "BSD",
+    "license": "BSD-1-Clause",
     "authors": [
         {
             "name": "Jamie Curnow",
